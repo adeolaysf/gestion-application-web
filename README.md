@@ -1,12 +1,21 @@
-# Gestion des Courses T.H.O.T
-TP de Génie Logiciel - Phase 4
+# 🛒 T.H.O.T - Gestionnaire de Courses Intelligent
 
-## Structure du projet
-- `app.py` : Code principal (Backend SQLite & Logique métier).
-- `test_unitaire.py` : Tests automatisés pour la fonctionnalité "Top Produit".
-- `courses.db` : Base de données SQLite (générée automatiquement).
+Ce projet est une application web de gestion de courses développée dans le cadre du module de **Génie Logiciel**. Elle permet d'enregistrer des achats, de suivre les dépenses et d'identifier statistiquement le produit le plus acheté.
 
-## Comment lancer les tests
-Exécuter la commande suivante :
+## 🚀 Fonctionnalités
+- **Ajout d'achats** : Enregistrement du nom du produit et de son prix.
+- **Base de données** : Stockage persistant avec SQLite.
+- **Statistiques** : Calcul automatique du "Top Produit" via un algorithme dédié.
+- **Interface Responsive** : Design moderne avec Bootstrap 5 (adapté mobile/PC).
+
+## 🛠️ Stack Technique
+- **Backend** : Python / Flask
+- **Frontend** : HTML5 / CSS3 (Bootstrap 5)
+- **Base de données** : SQLite3
+- **Tests & Qualité** : Pytest & Pytest-Cov (Couverture de code)
+
+## 🧪 Tests et Qualité
+Pour vérifier la logique métier, nous utilisons `pytest`.
+Lancer les tests avec mesure de couverture :
 ```bash
-python3 test_unitaire.py
+pytest --cov=app test_unitaire.py
