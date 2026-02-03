@@ -1,21 +1,14 @@
 # 🛒 T.H.O.T - Gestionnaire de Courses Intelligent
 
-Ce projet est une application web de gestion de courses développée dans le cadre du module de **Génie Logiciel**. Elle permet d'enregistrer des achats, de suivre les dépenses et d'identifier statistiquement le produit le plus acheté.
+Application web de gestion de courses développée pour le module de **Génie Logiciel**.
 
-## 🚀 Fonctionnalités
-- **Ajout d'achats** : Enregistrement du nom du produit et de son prix.
-- **Base de données** : Stockage persistant avec SQLite.
-- **Statistiques** : Calcul automatique du "Top Produit" via un algorithme dédié.
-- **Interface Responsive** : Design moderne avec Bootstrap 5 (adapté mobile/PC).
+## 🌐 Accès à l'application
+**Lien de l'application déployée :** [https://gestion-application-web.onrender.com](https://gestion-application-web.onrender.com)
+*(Note : Si le lien ne s'ouvre pas immédiatement, attendez 1 minute que le serveur gratuit de Render se réveille).*
 
-## 🛠️ Stack Technique
-- **Backend** : Python / Flask
-- **Frontend** : HTML5 / CSS3 (Bootstrap 5)
-- **Base de données** : SQLite3
-- **Tests & Qualité** : Pytest & Pytest-Cov (Couverture de code)
-
-## 🧪 Tests et Qualité
-Pour vérifier la logique métier, nous utilisons `pytest`.
-Lancer les tests avec mesure de couverture :
+## 🧪 Tests Unitaires
+Pour vérifier la validité des calculs statistiques et de la base de données, utilisez la commande suivante :
 ```bash
 pytest --cov=app test_unitaire.py
+## 🌐 Lien de l'application (Phase 5)
+L'application est déployée ici : [https://gestion-application-web.onrender.com](https://gestion-application-web.onrender.com)
