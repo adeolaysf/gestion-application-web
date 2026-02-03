@@ -10,5 +10,3 @@ Application web de gestion de courses développée pour le module de **Génie Lo
 Pour vérifier la validité des calculs statistiques et de la base de données, utilisez la commande suivante :
 ```bash
 pytest --cov=app test_unitaire.py
-## 🌐 Lien de l'application (Phase 5)
-L'application est déployée ici : [https://gestion-application-web.onrender.com](https://gestion-application-web.onrender.com)
