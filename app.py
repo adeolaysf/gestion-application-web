@@ -158,5 +158,7 @@ def add():
 
 if __name__ == '__main__':
     import os
+    # On récupère le port donné par Render, sinon on utilise 5000 par défaut
     port = int(os.environ.get("PORT", 5000))
+    # On écoute sur 0.0.0.0 pour être visible par le serveur Render
     app.run(host='0.0.0.0', port=port)
